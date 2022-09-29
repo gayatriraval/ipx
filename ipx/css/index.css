@@ -1,0 +1,85 @@
+.website{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.navigation{
+    background-color: #F61354;
+    display: flex;
+    overflow: hidden;
+}
+.navigation li{
+    color: #FFFFFF;
+    float: left;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+
+.main{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+.x{
+    height: 200px;
+    width: 100%;
+    margin-left: 100px;
+    position: relative;
+}
+#x{
+    color: white;;
+    border-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: absolute;
+    float: left;
+}
+#ip{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 27px;
+    font-size: 35pt;
+    float: left;
+}
+.login-img{
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: white;
+    width: 30px;
+    height: auto;
+    float: right;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 55px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.row{
+    
+    
+}
+.column1{
+    border: 2px solid;
+    border-color: #F61354;
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 10%;
+}
+.column2{
+    border: 2px solid;
+    border-color: #F61354;
+    float: right;
+    width: 30%;
+    height: 500px;
+    background-color: aqua;
+    margin-right: 10%;
+}
